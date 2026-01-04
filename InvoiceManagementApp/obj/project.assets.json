@@ -3476,11 +3476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Projects\\InvoiceManagementApp\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Projects\\Asp.Net-InvoicesManagementApp\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
       "projectName": "InvoiceManagementApp",
-      "projectPath": "C:\\Users\\MSI\\Desktop\\Projects\\InvoiceManagementApp\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
+      "projectPath": "C:\\Users\\MSI\\Desktop\\Projects\\Asp.Net-InvoicesManagementApp\\InvoiceManagementApp\\InvoiceManagementApp.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Desktop\\Projects\\InvoiceManagementApp\\InvoiceManagementApp\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Desktop\\Projects\\Asp.Net-InvoicesManagementApp\\InvoiceManagementApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -30,8 +30,8 @@
 				<td>@invoice.IssueDate?.ToShortDateString()</td>
 				<td>@invoice.DueDate?.ToShortDateString()</td>
 				<td style="white-space:nowrap">
-					<a class="btn btn-warning" asp-controller="Invoice" asp-action="Edit" asp-route-id="@invoice.Id">Edit</a>
-					<a class="btn btn-danger" asp-controller="Invoice" asp-action="Delete" asp-route-id="@invoice.Id">Delete</a>
+					<a class="btn btn-warning" asp-controller="Invoices" asp-action="Edit" asp-route-id="@invoice.Id">Edit</a>
+					<a class="btn btn-danger" asp-controller="Invoices" asp-action="Delete" asp-route-id="@invoice.Id">Delete</a>
 				</td>
 			</tr>
 		}

@@ -49,5 +49,68 @@ namespace InvoiceManagementApp.Controllers
 
 
         }
+        public IActionResult Edit(int id)
+        {
+            var invoice = context.Invoices.Find(id);
+            if (invoice == null)
+            {
+                return RedirectToAction("Index");
+            }
+            var InvoiceDto = new InvoiceDto
+            {
+                
+                Number = invoice.Number,
+                Status = invoice.Status,
+                IssueDate = invoice.IssueDate,
+                DueDate = invoice.DueDate,
+                Service = invoice.Service,
+                UnitPrice = invoice.UnitPrice,
+                Quantity = invoice.Quantity,
+                ClientName = invoice.ClientName,
+                ClientEmail = invoice.ClientEmail,
+                ClientPhone = invoice.ClientPhone,
+                ClientAddress = invoice.ClientAddress,
+            };
+            ViewBag.InvoiceId = invoice.Id;
+            return View(InvoiceDto);
+        }
+        [HttpPost]
+        public IActionResult Edit(int id, InvoiceDto invoiceDto)
+        {
+            var invoice = context.Invoices.Find(id);
+            if (invoice == null)
+            {
+                return RedirectToAction("Index");
+            }
+            if (!ModelState.IsValid) {
+                return View();
+            }
+            invoice.Number = invoiceDto.Number;
+            invoice.Status = invoiceDto.Status;
+            invoice.IssueDate = invoiceDto.IssueDate;
+            invoice.DueDate = invoiceDto.DueDate;
+                
+            invoice.Service = invoiceDto.Service;
+            invoice.UnitPrice = invoiceDto.UnitPrice;
+            invoice.Quantity = invoiceDto.Quantity;
+            invoice.ClientName = invoiceDto.ClientName;
+            invoice.ClientEmail = invoiceDto.ClientEmail;
+            invoice.ClientPhone = invoiceDto.ClientPhone;
+            invoice.ClientAddress = invoiceDto.ClientAddress ?? "";
+            context.SaveChanges();
+
+
+            return View();
+        }
+        public IActionResult Delete(int id)
+        {
+            var invoice = context.Invoices.Find(id);
+            if (invoice != null)
+            {
+                context.Invoices.Remove(invoice);
+                context.SaveChanges();
+            }
+            return RedirectToAction("Index");
+        }
     }
 }

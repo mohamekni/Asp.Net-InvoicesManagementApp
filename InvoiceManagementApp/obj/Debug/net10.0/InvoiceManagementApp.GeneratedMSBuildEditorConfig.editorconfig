@@ -19,49 +19,53 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = InvoiceManagementApp
 build_property.RootNamespace = InvoiceManagementApp
-build_property.ProjectDir = C:\Users\MSI\Desktop\Projects\InvoiceManagementApp\InvoiceManagementApp\
+build_property.ProjectDir = C:\Users\MSI\Desktop\Projects\Asp.Net-InvoicesManagementApp\InvoiceManagementApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\MSI\Desktop\Projects\InvoiceManagementApp\InvoiceManagementApp
+build_property.MSBuildProjectDirectory = C:\Users\MSI\Desktop\Projects\Asp.Net-InvoicesManagementApp\InvoiceManagementApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Home/Index.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Home/Privacy.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Invoices/Create.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Invoices/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Invoices/Index.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Invoices/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Invoices/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52b2ljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Shared/Error.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/_ViewImports.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/_ViewStart.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MSI/Desktop/Projects/InvoiceManagementApp/InvoiceManagementApp/Views/Shared/_Layout.cshtml]
+[C:/Users/MSI/Desktop/Projects/Asp.Net-InvoicesManagementApp/InvoiceManagementApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nabt8jm49x
